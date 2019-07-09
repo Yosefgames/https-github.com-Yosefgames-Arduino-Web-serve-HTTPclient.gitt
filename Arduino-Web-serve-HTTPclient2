@@ -1,4 +1,4 @@
-// Present a "Will be back soon web page", as stand-in webserver.
+// Present a " This is the page that will sent a message to Mudita event server", as stand-in webserver.
 // Mudita HTTP client server Arduino
 //
 // License: GPLv2
@@ -32,7 +32,7 @@ const char page[] PROGMEM =
     "<h3>This service is currently unavailable we notify when an event is opened </h3>"
     "<p><em>"
       "The main server will be left active currently not off-line for creation of events purposes.<br />"
-      "Please try again later."
+      "Please try again later if you do not manage to create an event Now."
     "</em></p>"
   "</body>"
 "</html>"
